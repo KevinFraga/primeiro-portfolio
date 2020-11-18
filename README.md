@@ -4,6 +4,6 @@ Eu sou [Kevin Fraga](https://www.linkedin.com/in/kevincfraga/), aluno do curso d
 
 ## Primeiro Porfólio
 
-Esse é um trabalho em progresso, conforme vou aprendendo mais coisas vou atualizando por aqui. :smile:
+Esse é um trabalho em progresso, conforme for aprendendo mais coisas vou atualizando por aqui. :smile:
 
 Desde já agradeço por qualquer interação.
