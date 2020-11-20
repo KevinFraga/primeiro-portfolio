@@ -4,6 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Primeiro Portfólio Web</title>
+    <style>
+      body {
+        background-color: #7492c3;
+      }
+      #name {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      #description {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      strong{
+        text-decoration: underline black solid;
+      }
+      em{
+        text-decoration: overline underline green wavy;
+      }
+      .seen{
+        font-size: 2em;
+      }
+      .not-seen{
+        font-size: 1.2em;
+      }
+      li{
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
     <ul>
@@ -15,10 +41,16 @@
       <li><a href="#links">Links Úteis</a></li>
     </ul>
     <h1 id="name">Kevin Ciolac de Fraga</h1>
-    <img src="assets/Foto Terno.jpeg" alt="Foto minha usando terno" id="photo"/>
+
+    <img
+      src="assets/Foto Terno.jpeg"
+      alt="Foto minha usando terno"
+      id="photo"
+      height="250px"
+    />
 
     <h2 id="about">Sobre Mim</h2>
-    <p>
+    <p id="description">
       Estudante de Desenvolvimento Web Full-Stack na <strong>Trybe</strong
       ><br />Nascido e criado no Rio de Janeiro - RJ, sou formado em
       <em>Engenharia Química</em> pela <strong>PUC-Rio</strong
@@ -28,23 +60,25 @@
 
     <h2 id="habilities">Habilidades em Desenvolvimento</h2>
     <ol>
-      <li>Git</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>SQL</li>
-      <li>React</li>
-      <li>Node</li>
-      <li>Express.js</li>
+      <li class="seen">Git</li>
+      <li class="seen">HTML</li>
+      <li class="seen">CSS</li>
+      <li class="not-seen">JavaScript</li>
+      <li class="not-seen">SQL</li>
+      <li class="not-seen">React</li>
+      <li class="not-seen">Node</li>
+      <li class="not-seen">Express.js</li>
     </ol>
 
     <h2 id="contact">Contatos</h2>
-    <a href="https://www.linkedin.com/in/kevincfraga/" target="_blank">LinkedIn</a> <br>
+    <a href="https://www.linkedin.com/in/kevincfraga/" target="_blank"
+      >LinkedIn</a
+    >
+    <br />
     <a href="https://github.com/KevinFraga" target="_blank">Github</a>
 
     <h2 id="links">Links Úteis</h2>
-    <a href="https://www.betrybe.com/" target="_blank">Trybe</a><br>
+    <a href="https://www.betrybe.com/" target="_blank">Trybe</a><br />
     <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
-
   </body>
 </html>
