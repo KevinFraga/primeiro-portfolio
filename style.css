@@ -1,5 +1,5 @@
 body {
-  background-color: #7492c3;
+  background-color: #edf6f9;
 }
 #name {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,12 +11,6 @@ body {
 }
 strong {
   text-decoration: underline black solid;
-}
-.seen {
-  font-size: 2em;
-}
-.not-seen {
-  font-size: 1.2em;
 }
 .header {
   background-color: black;
@@ -35,20 +29,51 @@ strong {
   font-family: "Courier New", Courier, monospace;
   padding-top: 5px;
 }
+.header a{
+  color: white;
+}
 .profile {
-  width: 40%;
-  height: 30%;
+  width: 60%;
+  height: 45%;
   position: absolute;
-  top: 45px;
-  background-color: linen;
+  top: 5%;
+  left: 2%;
+  background-color: black;
+  color: white;
   overflow: hidden;
   text-align: justify;
   padding: 35px;
 }
 #photo {
   float: left;
-  margin: 10px;
+  margin: 5px 30px 25px 5px;
+  height: 300px;
 }
 #name {
   text-align: center;
+}
+#habilities{
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  right: 2%;
+  top: 5%;
+  background-color: #52b788;
+  text-align: center;
+  padding: 10px 5px;
+  color: white;
+  display: inline-block;
+}
+#habilities h2{
+  padding-top: 8%;
+}
+.icon{
+  float: right;
+  position: relative;
+  overflow: clip;
+  border-radius: 100%;
+  width: 10%;
+  margin: 0 0 5%;
+  right: 10%;
+  top: 25px;
 }
