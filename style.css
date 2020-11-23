@@ -1,37 +1,54 @@
 body {
-    background-color: #7492c3;
-  }
-  #name {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  #description {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  strong {
-    text-decoration: underline black solid;
-  }
-  em {
-    text-decoration: overline underline green wavy;
-  }
-  .seen {
-    font-size: 2em;
-  }
-  .not-seen {
-    font-size: 1.2em;
-  }
-  .header {
-    background-color: green;
-    background-image: url("assets/trybe-grd.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 35px;
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-  }
+  background-color: #7492c3;
+}
+#name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#description {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 15%;
+}
+strong {
+  text-decoration: underline black solid;
+}
+.seen {
+  font-size: 2em;
+}
+.not-seen {
+  font-size: 1.2em;
+}
+.header {
+  background-color: black;
+  background-image: url("assets/trybe-grd.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+}
+.profile {
+  width: 40%;
+  height: 30%;
+  position: absolute;
+  top: 45px;
+  background-color: linen;
+  overflow: hidden;
+  text-align: justify;
+  padding: 35px;
+}
+#photo {
+  float: left;
+  margin: 10px;
+}
+#name {
+  text-align: center;
+}
