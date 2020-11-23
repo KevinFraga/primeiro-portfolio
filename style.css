@@ -79,8 +79,8 @@ strong {
 #contact{
   position: absolute;
   width: 30%;
-  height: 35%;
-  bottom: 5%;
+  height: 37%;
+  bottom: 3%;
   left: 2%;
   background-color: #52b788;
   text-align: center;
@@ -88,9 +88,9 @@ strong {
 #links{
   position: absolute;
   width: 30%;
-  height: 35%;
-  bottom: 5%;
-  left: 36%;
+  height: 37%;
+  bottom: 3%;
+  left: 35.8%;
   background-color: #52b788;
   text-align: center;
 }
