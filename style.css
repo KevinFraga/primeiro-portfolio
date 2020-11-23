@@ -1,6 +1,9 @@
 body {
   background-color: #edf6f9;
 }
+h2{
+  padding-top: 8%;
+}
 #name {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -62,10 +65,6 @@ strong {
   text-align: center;
   padding: 10px 5px;
   color: white;
-  display: inline-block;
-}
-#habilities h2{
-  padding-top: 8%;
 }
 .icon{
   float: right;
@@ -76,4 +75,22 @@ strong {
   margin: 0 0 5%;
   right: 10%;
   top: 25px;
+}
+#contact{
+  position: absolute;
+  width: 30%;
+  height: 35%;
+  bottom: 5%;
+  left: 2%;
+  background-color: #52b788;
+  text-align: center;
+}
+#links{
+  position: absolute;
+  width: 30%;
+  height: 35%;
+  bottom: 5%;
+  left: 36%;
+  background-color: #52b788;
+  text-align: center;
 }
