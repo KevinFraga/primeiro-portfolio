@@ -1,0 +1,96 @@
+body {
+  background-color: #edf6f9;
+}
+h2{
+  padding-top: 8%;
+}
+#name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#description {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 15%;
+}
+strong {
+  text-decoration: underline black solid;
+}
+.header {
+  background-color: black;
+  background-image: url("assets/trybe-grd.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 5px;
+}
+.header a{
+  color: white;
+}
+.profile {
+  width: 60%;
+  height: 45%;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  text-align: justify;
+  padding: 35px;
+}
+#photo {
+  float: left;
+  margin: 5px 30px 25px 5px;
+  height: 300px;
+}
+#name {
+  text-align: center;
+}
+#habilities{
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  right: 2%;
+  top: 5%;
+  background-color: #52b788;
+  text-align: center;
+  padding: 10px 5px;
+  color: white;
+}
+.icon{
+  float: right;
+  position: relative;
+  overflow: clip;
+  border-radius: 100%;
+  width: 10%;
+  margin: 0 0 5%;
+  right: 10%;
+  top: 25px;
+}
+#contact{
+  position: absolute;
+  width: 30%;
+  height: 35%;
+  bottom: 5%;
+  left: 2%;
+  background-color: #52b788;
+  text-align: center;
+}
+#links{
+  position: absolute;
+  width: 30%;
+  height: 35%;
+  bottom: 5%;
+  left: 36%;
+  background-color: #52b788;
+  text-align: center;
+}

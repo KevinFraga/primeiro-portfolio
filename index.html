@@ -4,81 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Primeiro Portfólio Web</title>
-    <style>
-      body {
-        background-color: #7492c3;
-      }
-      #name {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-      #description {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      strong{
-        text-decoration: underline black solid;
-      }
-      em{
-        text-decoration: overline underline green wavy;
-      }
-      .seen{
-        font-size: 2em;
-      }
-      .not-seen{
-        font-size: 1.2em;
-      }
-      li{
-        text-align: left;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <ul>
-      <li><a href="#name">Início</a></li>
-      <li><a href="#photo">Foto</a></li>
-      <li><a href="#about">Sobre Mim</a></li>
-      <li><a href="#habilities">Habilidades em Desenvolvimento</a></li>
-      <li><a href="#contact">Contatos</a></li>
-      <li><a href="#links">Links Úteis</a></li>
-    </ul>
-    <h1 id="name">Kevin Ciolac de Fraga</h1>
+    <div class="header">
+      <a href="#description">Sobre Mim</a>
+      <a href="#habilities">Habilidades em Desenvolvimento</a>
+      <a href="#contact">Contatos</a>
+      <a href="#links">Links Úteis</a>
+    </div>
+    <div class="profile">
+      <div id="name">
+        <h1>Kevin Ciolac de Fraga</h1>
+      </div>
+      <img
+        src="assets/Foto Terno.jpeg"
+        alt="Foto minha usando terno"
+        id="photo"
+      />
+      <div id="description">
+        <h3>Sobre Mim</h3>
+        <p>
+          Estudante de Desenvolvimento Web Full-Stack na
+          <strong>Trybe</strong>.<br />Nascido e criado no Rio de Janeiro - RJ,
+          sou formado em <em>Engenharia Química</em> pela
+          <strong>PUC-Rio</strong>.<br />Profissional competente e dedicado,
+          buscando novos conhecimentos para uma tranquila transição à carreira
+          de tecnologia
+        </p>
+      </div>
+    </div>
+    <div id="habilities">
+      <h1>Habilidades</h1>
 
-    <img
-      src="assets/Foto Terno.jpeg"
-      alt="Foto minha usando terno"
-      id="photo"
-      height="250px"
-    />
-
-    <h2 id="about">Sobre Mim</h2>
-    <p id="description">
-      Estudante de Desenvolvimento Web Full-Stack na <strong>Trybe</strong
-      ><br />Nascido e criado no Rio de Janeiro - RJ, sou formado em
-      <em>Engenharia Química</em> pela <strong>PUC-Rio</strong
-      ><br />Profissional competente e dedicado, buscando novos conhecimentos
-      para uma tranquila transição à carreira de tecnologia
-    </p>
-
-    <h2 id="habilities">Habilidades em Desenvolvimento</h2>
-    <ol>
-      <li class="seen">Git</li>
-      <li class="seen">HTML</li>
-      <li class="seen">CSS</li>
-      <li class="not-seen">JavaScript</li>
-      <li class="not-seen">SQL</li>
-      <li class="not-seen">React</li>
-      <li class="not-seen">Node</li>
-      <li class="not-seen">Express.js</li>
-    </ol>
-
-    <h2 id="contact">Contatos</h2>
-    <a href="https://www.linkedin.com/in/kevincfraga/" target="_blank"
-      >LinkedIn</a
-    >
-    <br />
-    <a href="https://github.com/KevinFraga" target="_blank">Github</a>
-
-    <h2 id="links">Links Úteis</h2>
-    <a href="https://www.betrybe.com/" target="_blank">Trybe</a><br />
-    <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+      <div>
+        <img class="icon" src="assets/github.png" alt="icon github" />
+        <h2>Git</h2>
+      </div>
+      <div>
+        <img class="icon" src="assets/html.png" alt="icon html" />
+        <h2>HTML</h2>
+      </div>
+      <div>
+        <img class="icon" src="assets/css.jpeg" alt="icon css" />
+        <h2>CSS</h2>
+      </div>
+      <div>
+        <img class="icon" src="assets/js.png" alt="icon js" />
+        <h2>JavaScript</h2>
+      </div>
+      <div>
+        <img class="icon" src="assets/sql.jpeg" alt="icon sql" />
+        <h2>SQL</h2>
+      </div>
+      <div>
+        <img class="icon" src="assets/react.png" alt="icon react" />
+        <h2>React</h2>
+      </div>
+      <div>
+        <img class="icon" src="assets/node.png" alt="icon node" />
+        <h2>Node</h2>
+      </div>
+      <div>
+        <img class="icon" src="assets/express.png" alt="icon express" />
+        <h2>Express.js</h2>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="subtitle">
+        <h1>Contatos</h1>
+      </div>
+      <div>
+        <img class="icon" src="assets/linkedin.png" alt="icon linkedin" />
+        <a href="https://www.linkedin.com/in/kevincfraga/" target="_blank"
+          ><h2>LinkedIn</h2></a
+        >
+      </div>
+      <div>
+        <img class="icon" src="assets/github.png" alt="icon github" />
+        <a href="https://github.com/KevinFraga" target="_blank"
+          ><h2>Github</h2></a
+        >
+      </div>
+    </div>
+    <div id="links">
+      <div class="subtitle">
+        <h1>Links Úteis</h1>
+      </div>
+      <div>
+        <img class="icon" src="assets/trybe.png" alt="icon trybe" />
+        <a href="https://www.betrybe.com/" target="_blank"><h2>Trybe</h2></a>
+      </div>
+      <div>
+        <img class="icon" src="assets/w3schools.jpeg" alt="icon w3schools" />
+        <a href="https://www.w3schools.com/" target="_blank"
+          ><h2>w3schools</h2></a
+        >
+      </div>
+    </div>
   </body>
 </html>
