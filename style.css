@@ -6,11 +6,13 @@ h2{
 }
 #name {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 130%;
 }
 #description {
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 15%;
+  padding: 1%;
 }
 strong {
   text-decoration: underline black solid;
@@ -32,7 +34,7 @@ strong {
   font-family: "Courier New", Courier, monospace;
   padding-top: 5px;
 }
-.header a{
+.header a, #description a{
   color: white;
 }
 .profile {
@@ -50,7 +52,8 @@ strong {
 #photo {
   float: left;
   margin: 5px 30px 25px 5px;
-  height: 300px;
+  height: 330px;
+  border: 7px ridge #edf6f9;
 }
 #name {
   text-align: center;
